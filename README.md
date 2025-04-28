@@ -4,6 +4,8 @@ This project focuses on understanding customer churn, which refers to the rate a
 Using data analysis and visualization techniques, I aim to identify patterns and reasons for churn, providing actionable insights for retention strategies.
 
 
+
+
 🎯 **Objective**
 
 Explore and clean the customer churn dataset.
@@ -13,6 +15,7 @@ Analyze the distribution of churn across different customer features.
 Identify key factors associated with customer churn.
 
 Provide recommendations to reduce churn.
+
 
 
 
@@ -28,6 +31,7 @@ Seaborn and Matplotlib for data visualization
 
 
 
+
 📊 **Data Cleaning Steps**
 
 Replaced blank values in TotalCharges with 0 and converted it to float.
@@ -37,6 +41,7 @@ Verified no missing values were left after cleaning.
 Converted the SeniorCitizen column from numeric (0/1) to categorical ("No"/"Yes").
 
 Checked and confirmed no duplicate customerID entries.
+
 
 
 
@@ -65,7 +70,9 @@ Electronic Check payment users have higher churn rates.
 
 
 
+
 **📈 Key Insights**
+
 Senior Citizens tend to churn more compared to others.
 
 Month-to-month contracts are risky; customers are more likely to leave.
@@ -76,7 +83,9 @@ Shorter tenure customers have a significantly higher churn probability.
 
 
 
+
 **💡 Recommendations**
+
 Offer incentives for customers to switch to long-term contracts (e.g., yearly plans).
 
 Encourage auto-payment options (like bank transfer/credit card) instead of electronic checks.
