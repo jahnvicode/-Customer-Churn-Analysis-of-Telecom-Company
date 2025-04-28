@@ -1,22 +1,35 @@
 # -Customer-Churn-Analysis-of-Telecom-Company
-This project focuses on understanding customer churn, which refers to the rate at which customers end their subscriptions. Using data analysis and visualization techniques, I aim to identify patterns and reasons for churn, providing actionable insights for retention strategies.
+
+This project focuses on understanding customer churn, which refers to the rate at which customers end their subscriptions.
+Using data analysis and visualization techniques, I aim to identify patterns and reasons for churn, providing actionable insights for retention strategies.
 
 🎯 **Objective**
 Explore and clean the customer churn dataset.
+
 Analyze the distribution of churn across different customer features.
+
 Identify key factors associated with customer churn.
+
 Provide recommendations to reduce churn.
 
 🧰 **Tools and Libraries**
+
 Python
+
 Pandas for data manipulation
+
 NumPy for numerical operations
+
 Seaborn and Matplotlib for data visualization
 
 📊 **Data Cleaning Steps**
+
 Replaced blank values in TotalCharges with 0 and converted it to float.
+
 Verified no missing values were left after cleaning.
+
 Converted the SeniorCitizen column from numeric (0/1) to categorical ("No"/"Yes").
+
 Checked and confirmed no duplicate customerID entries.
 
 **🔎 Key Analyses and Visualizations**
